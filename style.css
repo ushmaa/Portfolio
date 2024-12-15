@@ -1,12 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     background-color: rgb(19, 85, 85);
     color: white;
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100vh;
 }
 
 nav {
@@ -16,6 +20,7 @@ nav {
     height: 70px;
     background-color: rgb(54, 52, 49);
 }
+
 
 nav ul {
     display: flex;
@@ -39,9 +44,19 @@ nav ul li a:hover{
     font-size: 16px;
 }
 
+#nav, img{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: -125px;
+     
+}
+
 .left {
     font-size: 35px;
     font-family:"Gloria Hallelujah";
+    margin-left: -350px;
 }
 
 .firstsection {
@@ -51,21 +66,67 @@ nav ul li a:hover{
     
 }
 
-.leftsection {
+.leftsection{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;  
-    margin: 60px;    
+    padding-top: 80px;
+    padding-left: 200px;    
 }
 
 
 
-.rightsection img {
-    width: 100%;
-   margin-top: 60px;
+ .rightsection img {
+    display: flex;
+    width: 300px;
+    height: 250px ;
+    margin-right: -100px;
+
     
 }
-.purple{
+
+#picture img{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+    height: 180px;
+    margin-top: -80px;
+    margin-left: -20px;
+    border-radius: 50%;
+    
+
+}
+#text {
+    position: relative; 
+    top: -20px;            
+    text-align: left;      
+    font-size: 22px;       
+    line-height: 2; 
+    margin-top: 250px;  
+    margin-right: 70px;
+    margin-left: -600px;  
+    font-family: Charm; 
     color: black;
+    font-weight: bolder;
+}
+
+
+
+#textcolor{
+    color: wheat;
     font-weight: bold;
+    
+}
+
+#picture2 img{
+    display: flex;
+    margin-top: 300px;
+    margin-right: -1000px;
+    width: 200px;
+    height: 150px;
+
+}
+.right{
+    display: flex;
+    margin-right: -200px;
 }
